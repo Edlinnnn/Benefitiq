@@ -1,0 +1,233 @@
+{
+  "Gold": {
+    "annual_fee": 250,
+    "benefits": [
+      {
+        "id": "purchase_protection",
+        "name": "Purchase Protection",
+        "trigger_mcc": [
+          5732,
+          5311,
+          5651,
+          5941
+        ],
+        "min_amount": 50,
+        "window_days": 90,
+        "value_range": [
+          30,
+          250
+        ]
+      },
+      {
+        "id": "extended_warranty",
+        "name": "Extended Warranty",
+        "trigger_mcc": [
+          5732,
+          5722
+        ],
+        "min_amount": 100,
+        "window_days": 365,
+        "value_range": [
+          40,
+          300
+        ]
+      },
+      {
+        "id": "dining_credit",
+        "name": "Dining Statement Credit",
+        "trigger_mcc": [
+          5812,
+          5814
+        ],
+        "min_amount": 0,
+        "window_days": 30,
+        "value_range": [
+          10,
+          100
+        ]
+      }
+    ]
+  },
+  "Platinum": {
+    "annual_fee": 695,
+    "benefits": [
+      {
+        "id": "purchase_protection",
+        "name": "Purchase Protection",
+        "trigger_mcc": [
+          5732,
+          5311,
+          5651,
+          5941
+        ],
+        "min_amount": 50,
+        "window_days": 120,
+        "value_range": [
+          30,
+          300
+        ]
+      },
+      {
+        "id": "extended_warranty",
+        "name": "Extended Warranty",
+        "trigger_mcc": [
+          5732,
+          5722
+        ],
+        "min_amount": 100,
+        "window_days": 365,
+        "value_range": [
+          40,
+          350
+        ]
+      },
+      {
+        "id": "travel_delay",
+        "name": "Travel Delay Insurance",
+        "trigger_mcc": [
+          3000,
+          3001,
+          3002,
+          4511
+        ],
+        "min_amount": 0,
+        "window_days": 45,
+        "value_range": [
+          50,
+          500
+        ]
+      },
+      {
+        "id": "lounge_access",
+        "name": "Airport Lounge Access",
+        "trigger_mcc": [
+          3000,
+          3001,
+          3002,
+          4511
+        ],
+        "min_amount": 0,
+        "window_days": 60,
+        "value_range": [
+          35,
+          75
+        ]
+      },
+      {
+        "id": "hotel_credit",
+        "name": "Hotel Statement Credit",
+        "trigger_mcc": [
+          3501,
+          3502,
+          3503,
+          7011
+        ],
+        "min_amount": 0,
+        "window_days": 30,
+        "value_range": [
+          50,
+          200
+        ]
+      }
+    ]
+  },
+  "Centurion": {
+    "annual_fee": 5000,
+    "benefits": [
+      {
+        "id": "purchase_protection",
+        "name": "Purchase Protection",
+        "trigger_mcc": [
+          5732,
+          5311,
+          5651,
+          5941
+        ],
+        "min_amount": 25,
+        "window_days": 180,
+        "value_range": [
+          30,
+          500
+        ]
+      },
+      {
+        "id": "extended_warranty",
+        "name": "Extended Warranty",
+        "trigger_mcc": [
+          5732,
+          5722
+        ],
+        "min_amount": 50,
+        "window_days": 730,
+        "value_range": [
+          40,
+          600
+        ]
+      },
+      {
+        "id": "travel_delay",
+        "name": "Travel Delay Insurance",
+        "trigger_mcc": [
+          3000,
+          3001,
+          3002,
+          4511
+        ],
+        "min_amount": 0,
+        "window_days": 60,
+        "value_range": [
+          75,
+          750
+        ]
+      },
+      {
+        "id": "lounge_access",
+        "name": "Airport Lounge Access",
+        "trigger_mcc": [
+          3000,
+          3001,
+          3002,
+          4511
+        ],
+        "min_amount": 0,
+        "window_days": 90,
+        "value_range": [
+          50,
+          100
+        ]
+      },
+      {
+        "id": "hotel_credit",
+        "name": "Hotel Statement Credit",
+        "trigger_mcc": [
+          3501,
+          3502,
+          3503,
+          7011
+        ],
+        "min_amount": 0,
+        "window_days": 30,
+        "value_range": [
+          100,
+          400
+        ]
+      },
+      {
+        "id": "return_protection",
+        "name": "Return Protection",
+        "trigger_mcc": [
+          5311,
+          5651,
+          5732,
+          5941
+        ],
+        "min_amount": 40,
+        "window_days": 90,
+        "value_range": [
+          25,
+          200
+        ]
+      }
+    ]
+  }
+}

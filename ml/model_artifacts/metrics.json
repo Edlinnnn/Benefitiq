@@ -1,0 +1,58 @@
+{
+  "xgboost_auc_roc": 0.769,
+  "logistic_regression_baseline_auc_roc": 0.6367,
+  "calibration_mean_abs_gap": 0.0776,
+  "train_rows": 8479,
+  "test_rows": 2120,
+  "positive_rate_test": 0.3925,
+  "top_features_by_mean_abs_shap": [
+    {
+      "feature": "prior_engagement_rate",
+      "mean_abs_shap": 0.33833
+    },
+    {
+      "feature": "past_redemptions",
+      "mean_abs_shap": 0.11978
+    },
+    {
+      "feature": "days_since_last_redemption",
+      "mean_abs_shap": 0.09555
+    },
+    {
+      "feature": "tenure_days",
+      "mean_abs_shap": 0.07519
+    },
+    {
+      "feature": "tx_count_365d",
+      "mean_abs_shap": 0.0692
+    },
+    {
+      "feature": "days_since_last_tx",
+      "mean_abs_shap": 0.06616
+    },
+    {
+      "feature": "card_tier_gold",
+      "mean_abs_shap": 0.03625
+    },
+    {
+      "feature": "channel_email",
+      "mean_abs_shap": 0.02472
+    },
+    {
+      "feature": "card_tier_centurion",
+      "mean_abs_shap": 0.01521
+    },
+    {
+      "feature": "channel_in_app",
+      "mean_abs_shap": 0.00786
+    },
+    {
+      "feature": "card_tier_platinum",
+      "mean_abs_shap": 0.00767
+    },
+    {
+      "feature": "channel_push",
+      "mean_abs_shap": 0.00465
+    }
+  ]
+}

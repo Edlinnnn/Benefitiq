@@ -1,0 +1,14 @@
+[
+  "tenure_days",
+  "past_redemptions",
+  "days_since_last_redemption",
+  "tx_count_365d",
+  "days_since_last_tx",
+  "prior_engagement_rate",
+  "card_tier_gold",
+  "card_tier_platinum",
+  "card_tier_centurion",
+  "channel_push",
+  "channel_email",
+  "channel_in_app"
+]
