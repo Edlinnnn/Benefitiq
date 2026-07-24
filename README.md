@@ -1,6 +1,6 @@
 # BenefitIQ
 
-[![CI](https://github.com/YOUR_USERNAME/benefitiq/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/benefitiq/actions/workflows/ci.yml)
+[![CI](https://github.com/Edlinnnn/Benefitiq/actions/workflows/ci.yml/badge.svg)](https://github.com/Edlinnnn/Benefitiq/actions/workflows/ci.yml)
 
 **See the value you've already paid for.**
 
