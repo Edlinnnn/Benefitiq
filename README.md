@@ -17,6 +17,7 @@ with both a card-member dashboard and a business-analyst dashboard.
 
 > All data in this repository is synthetically generated. No real cardholder,
 > transaction, or issuer data is used anywhere in this project.
+🔗 **Live demo:** [benefitiq-one.vercel.app](https://benefitiq-one.vercel.app/) — member dashboard at `/`, analyst view at `/analyst`
 
 📄 [Full project description](docs/BenefitIQ_Project_Description.docx) · 🖥️ [Pitch deck](docs/BenefitIQ_Pitch_Deck.pptx)
 
