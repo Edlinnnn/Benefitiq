@@ -26,7 +26,10 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    # Open for a public hackathon demo — there's no auth or PII in this API,
+    # so a permissive origin policy is fine here. Tighten to specific
+    # origins before handling any real user data.
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
